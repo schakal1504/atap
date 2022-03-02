@@ -21,31 +21,15 @@
 						<div class="inner">
 
 							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>ATAP</strong> Agrosoluciones Tecnologicas y Agricolas de Puebla</a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Whatsapp</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">correo</span></a></li>
-									</ul>
-								</header>
-
+                                <?php 
+                                    $titleHeader = '<a href="index.html" class="logo"><strong>ATAP</strong> Agrosoluciones Tecnologicas y Agricolas de Puebla</a>';
+                                    require "mvc/view/header.php";
+                                ?>
+							
 							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Carrousel<br />
-											Evidencias</h1>
-										</header>
-										<p>Propongo Carrousel con evidencias texto | foto</p>
-										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-								</section>
+                                <?php 
+                                    require "mvc/view/banner.php" ;
+                                ?>
 
 							<!-- Section -->
 								<section>
@@ -156,52 +140,10 @@
 								</section>
 
 							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li>
-											<span class="opener">Productos</span>
-											<ul>
-												<span class="opener">MINERAL</span>
-												<ul>
-													<li><a href="#">Rophos</a></li>
-													<li><a href="#">Silmex</a></li>
-													<li><a href="#">Estabilizrer</a></li>
-													<li><a href="#">Zeolmin</a></li>
-													<li><a href="#">Biominta</a></li>
-												</ul>
-												<span class="opener">BIOLOGICOS</span>
-												<ul>
-													<li><a href="#">Vigortek</a></li>
-													<li><a href="#">Fullmin</a></li>
-													<li><a href="#">Larv-Out</a></li>
-													<li><a href="#">Nemakill</a></li>
-													<li><a href="#">Ovieat</a></li>
-													<li><a href="#">Inocremb</a></li>
-												</ul>
-												<span class="opener">BOTANICOS</span>
-												<ul>
-													<li><a href="#">Capsan</a></li>
-													<li><a href="#">Alinsat</a></li>
-													<li><a href="#">Tagta</a></li>
-													<li><a href="#">Eqûarv</a></li>
-												</ul>
-												<span class="opener">MAX-GROW</span>
-												<ul>
-													<li><a href="#">Nitring</a></li>
-													<li><a href="#">AA-80</a></li>
-													<li><a href="#">DH-MAX</a></li>
-													<li><a href="#">KSOP</a></li>
-												</ul>												
-											</ul>
-										</li>
-										<li><a href="#">Soluciones</a></li>
-										<li><a href="#">Contactanos</a></li>
-									</ul>
-								</nav>
+                                <?php 
+                                    require "mvc/view/menu.php" ;
+                                ?>
+								
 
 							<!-- Section -->
 								<section>
