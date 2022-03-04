@@ -1,8 +1,9 @@
+<link rel="stylesheet" href="assets/css/productos.css" />
 <section>     
     <div class="row">  
-        <div class="col-3 col-12-small box">
+        <div class="col-3 col-12-small box left<?php echo  mb_strtoupper($_GET["linea"]); ?>">
         <span class="image fit"><img src="images/pic11.jpg" alt="" /></span>
-            <h4>COMPLEJO MINERAL<br/>
+            <h4 class="leftTitle<?php echo  mb_strtoupper($_GET["linea"]); ?>">COMPLEJO MINERAL<br/>
             &nbsp;&nbsp;&nbsp;POLVO SECO/AGRICOLA</h4><br/>
             <article>Este es un producto proveniente de 
             la molienda del mineral fluor-hidroxiapatita con fines para ser 
@@ -14,7 +15,7 @@
             </article>
 
             <hr/><br/>
-            <h5>RECOMENDACIONES DE SEGURIDAD</h5>
+            <h5 class="leftTitle<?php echo  mb_strtoupper($_GET["linea"]); ?>">RECOMENDACIONES DE SEGURIDAD</h5>
             <span>
                 El producto no 
                 presenta riesgos para 
@@ -31,11 +32,11 @@
 
 										
             <header class="major">
-                <h2>INSTRUCCIONES DE USO</h2>
+                <h2 class="title<?php echo  mb_strtoupper($_GET["linea"]); ?>">INSTRUCCIONES DE USO</h2>
             </header>
 
             <p>
-                <strong>ROPHOS</strong> 
+                <strong><?php echo  mb_strtoupper($_GET["producto"]); ?> </strong> 
                 es un fluor-hydroxiapatita proveniente de un deposito org&aacute;nico, que aporta fosforo a 
                 la planta indispensable para procesos de enraizamiento y crecimiento vegetal.<br/>
                 Es preferible un an&aacute;lisis de suelo, pero existen recomendaciones est&aacute;ndar para todo tipo de suelo que 
@@ -44,7 +45,7 @@
                 producto tambi&eacute;n se puede aplicar alrededor de la planta, poni&eacute;ndolo al alcance de la ra&iacute;z.
             </p>
             <header class="major">
-                <h2>BENEFICIOS</h2>
+                <h2 class="title<?php echo  mb_strtoupper($_GET["linea"]); ?>">BENEFICIOS</h2>
             </header>
             <p>
                 Permite una r&aacute;pida disponibilidad de P para el primer cultivo. <br/>

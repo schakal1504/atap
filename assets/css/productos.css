@@ -1,0 +1,83 @@
+
+.titleBiotamex{
+    color:#000000;
+}
+
+.subtitleMINERAL{
+    color:#808089;
+}
+
+.titleMINERAL{
+    color:#5e0023;
+    border-bottom: solid 6px #5e0023 !important;
+}
+
+#barra{
+    color:#595959;
+}
+
+#MINERAL header.major > :last-child {
+    border-bottom: solid 6px #595959 !important;
+}
+
+#MINERAL{
+    border-bottom: solid 6px #595959 !important;
+}
+
+.leftTitleMINERAL{
+    color:#2f5496;
+}
+.leftMINERAL{
+    background: #808089;
+}
+/***Biologicos**/
+#BIOLOGICOS{
+    border-bottom: solid 6px #46b050 !important;
+}
+
+.leftTitleBIOLOGICOS{
+    color:#2f5496;
+}
+.titleBIOLOGICOS{
+    color:#5e0023;
+    border-bottom: solid 6px #46b050 !important;
+}
+.leftBIOLOGICOS{
+    background: #c0dcac;
+}
+/********BOTANICOS******/
+#BOTANICOS{
+    border-bottom: solid 6px #6467b4 !important;
+}
+
+.leftTitleBOTANICOS{
+    color:#2f5496;
+}
+.titleBOTANICOS{
+    color:#000;
+    border-bottom: solid 6px #6467b4 !important;
+}
+.subtitleBOTANICOS{
+    color:#6467b4;
+}
+.leftBOTANICOS{
+    background: #d398ce;
+}
+/********MAX-GROW******/
+#MAX-GROW{
+    border-bottom: solid 6px #00b0f2 !important;
+}
+
+.leftTitleMAX-GROW{
+    color:#2f5496;
+}
+.titleMAX-GROW{
+    color:#000;
+    border-bottom: solid 6px #00b0f2 !important;
+}
+.subtitleMAX-GROW{
+    color:#00b0f2;
+}
+.leftMAX-GROW{
+    background: #6ebae6;
+}

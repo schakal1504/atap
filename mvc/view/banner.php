@@ -1,16 +1,25 @@
 <section id="banner">
 	<div class="content">
-	    <header>
-		    <h1>Carrousel<br />
-	        Evidencias</h1>
-        </header>
-	    <p>Propongo Carrousel con evidencias texto | foto</p>
-	    <ul class="actions">
-		    <li><a href="#" class="button big">Learn More</a></li>
-        </ul>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="./images/pic03.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				<img src="./images/pic01.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				<img src="./images/pic02.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</button>
+		</div>
 	</div>
-	<span class="image fit"><img src="images/pic11.jpg" alt="" /></span>
-	<span class="image object">
-		<img src="images/pic10.jpg" alt="" />
-	</span>
 </section>
